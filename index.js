@@ -29,12 +29,3 @@ const employee = {
     return employee;
   }
   
-  // Export the functions for testing
-  module.exports = {
-    employee,
-    updateEmployeeWithKeyAndValue,
-    destructivelyUpdateEmployeeWithKeyAndValue,
-    deleteFromEmployeeByKey,
-    destructivelyDeleteFromEmployeeByKey
-  };
-  
